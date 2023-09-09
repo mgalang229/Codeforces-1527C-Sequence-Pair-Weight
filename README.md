@@ -19,7 +19,7 @@ sample output:
 if we encounter '1' again in the sequence, the total no. of subsegments
 ending at '1' would be equal to 9
 
-- The previous date from index 8 would only take effect now at index 9
+- The previous update from index 8 would only take effect now at index 9
 
 - This is the reason why we update it only after the mp[1] has been
 added to the final answer
