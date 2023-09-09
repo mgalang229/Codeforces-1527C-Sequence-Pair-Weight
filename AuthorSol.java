@@ -28,6 +28,7 @@ public class AuthorSol {
 				if (mp.containsKey(a[i])) {
 					dp[i] += mp.get(a[i]);
 				}
+				//(i+1) refers to the total no. of subarrays ending at i
 				mp.put(a[i], mp.getOrDefault(a[i], 0L) + (i + 1));
 				ans += dp[i];
 			}
